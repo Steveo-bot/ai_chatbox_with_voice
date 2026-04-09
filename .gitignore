@@ -5,6 +5,12 @@
 /.pnp
 .pnp.js
 
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
 # testing
 /coverage
 
@@ -24,4 +30,8 @@ yarn-error.log*
 
 #api keys
 server/.env
+.env
 
+# keep example env files if you create them
+!.env.example
+!server/.env.example
