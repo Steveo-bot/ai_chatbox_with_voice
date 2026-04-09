@@ -1,9 +1,20 @@
 # Agent-Based Question Answering System with Voice Input
-contributor: Steve Zhao from second year student at UCSB
+### contributor: Steve Zhao, a second-year student at UCSB
+
+
 <img width="824" height="431" alt="Screenshot 2026-04-09 at 13 19 52" src="https://github.com/user-attachments/assets/b137da0c-3af7-4979-8925-e2f3ba4ad3e4" />
+
 ## Framework
 <img width="555" height="156" alt="Screenshot 2026-04-09 at 13 19 05" src="https://github.com/user-attachments/assets/267ea053-2365-4230-924a-cbea98ab0335" />
 
+## Features
+- Upload PDF documents for analysis
+- Ask questions about the uploaded PDF content
+- Receive generated answers based on the document
+- Use voice input to ask questions
+- Listen to answers with text-to-speech output
+- Get additional answers from online search
+- 
 ## Overview
 This is a agent-based system that can answer questions based on the retrieved documents. The system is built using React for the frontend and Node.js for the backend. The backend uses OpenAI's GPT-5 model for natural language processing and Serapi for document retrieval. The project also includes a vector store for storing and retrieving relevant documents based on similarity search. The README should include instructions on how to set up the project, how to run the server and the frontend, and how to use the system to ask questions and get answers based on the retrieved documents.
 
